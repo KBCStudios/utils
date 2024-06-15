@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs", //commonjs
+        "rootDir": "./src/",
+        "outDir": "./dist/",
+        "strict": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": false,
+        "typeRoots": [
+            "node_modules/@types", "/src/types.d.ts"
+        ],
+        "sourceMap": true,
+        "baseUrl": "./",
+        "noImplicitAny": true,
+        "emitDeclarationOnly": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "declaration": true
+    },
+    "files": [
+        "src/index.ts"
+    ],
+    "include": [
+        "./**/*.ts",
+        "./*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "./build.config.ts"
+    ],
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@kbc-studios/utils.js",
+  "version": "1.0.0",
+  "description": "A utility designed primarily to facilitate the development of discord bots.",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "doc": "typedoc && replace-in-files --string '=\"assets/' --replacement '=\"/assets/' docs/404.html"
+  },
+  "keywords": [
+    "utils",
+    "kbc-studios",
+    "discord"
+  ],
+  "author": "",
+  "dependencies": {
+    "@8hobbies/typedoc-plugin-404": "^2.2.0",
+    "discord.js": "^14.15.3",
+    "graceful-fs": "^4.2.11",
+    "lodash": "^4.17.21",
+    "minimatch": "^9.0.4",
+    "tslib": "^2.6.3",
+    "typedoc": "^0.25.13",
+    "typedoc-plugin-missing-exports": "^2.3.0",
+    "typedoc-theme-category-nav": "^0.0.3",
+    "typedoc-theme-hierarchy": "^4.1.2",
+    "typedoc-theme-reference-declaration-test": "^1.0.0",
+    "unbuild": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.5",
+    "replace-in-files-cli": "^2.2.0",
+    "typescript": "^5.4.5"
+  }
+}
