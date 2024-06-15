@@ -15,6 +15,8 @@ import os from "os";
 import images from "./images/";
 import { get } from "lodash";
 
+export * from "./types";
+
 const logger = new Logger();
 
 export class Util {
@@ -551,5 +553,3 @@ export class Util {
 		};
 	}
 }
-
-export * from "./types";

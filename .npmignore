@@ -1,0 +1,11 @@
+docs
+node_modules
+src
+.gitignore
+.npmignore
+.prettierrc
+build.config.ts
+bun.lockb
+package-lock.json
+tsconfig.json
+typedoc.config.js
