@@ -1,7 +1,7 @@
 A utility designed primarily to facilitate the development of discord bots.
 
 # Documentation
-See the documentation on: [Utils Docs](https://kbcstudios.github.io/utils/modules.html)
+See the documentation on: [Utils Docs](https://kbcstudios.github.io/utils/)
 
 # Instalation
 ```sh
